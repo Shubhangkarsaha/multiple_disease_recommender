@@ -1,11 +1,11 @@
 import numpy as np
-import joblib
+import pickle
 import streamlit as st
 
-#from sklearn.preprocessing import StandardScaler
+
 
 # loading the saved model
-loaded_model = joblib.load(open('C:/Users/shubh/machine_learning_project/Multiple_disease_prediction/multiple_disease_prediction/svm_diabetes_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/shubh/machine_learning_project/Multiple_disease_prediction/multiple_disease_prediction/svm_diabetes_model.sav', 'rb'))
 
 #scaler = StandardScaler()
 
